@@ -43,7 +43,12 @@ export default function Portfolio() {
           <a href="https://github.com/ayushi-Sadani" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600"><Github className="w-6 h-6" /></a>
         </div>
         <a
-  href={`${process.env.PUBLIC_URL}/resume.pdf`} download className="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition">Download Resume</a>
+  href={`${process.env.PUBLIC_URL}/resume.pdf`}
+  download
+  className="text-indigo-600 hover:underline"
+>
+  Download Resume
+</a>
       </section>
 
       {/* About Me */}
