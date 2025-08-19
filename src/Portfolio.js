@@ -34,7 +34,7 @@ export default function Portfolio() {
       {/* Hero */}
       <section id="about" className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-br from-indigo-100 via-white to-purple-100">
         <span className="px-4 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium mb-4 shadow">Open to Work</span>
-        <img src="/hello.gif" alt="Aayushi Sadani" className="w-40 h-40 rounded-full shadow-lg mb-6 border-4 border-white object-cover" />
+        <img src={`${process.env.PUBLIC_URL}/hello.gif`} alt="hello" className="w-40 h-40 rounded-full shadow-lg mb-6 border-4 border-white object-cover" />
         <h1 className="text-5xl font-extrabold mb-2">Aayushi Sadani</h1>
         <p className="text-lg text-gray-600 max-w-2xl mb-6">Looking for SDE / Full-Stack Developer Opportunities</p>
         <div className="flex gap-6 mb-6">
@@ -179,7 +179,7 @@ export default function Portfolio() {
      <div className="grid md:grid-cols-3 gap-8"> 
      {/* Project 1 */} 
      <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition"> 
-     <img src="/CampusCraving.jpg" alt="Campus Cravings" className="w-full h-48 object-cover rounded-xl mb-4" /> 
+<img src={`${process.env.PUBLIC_URL}/CampusCraving.jpg`} alt="CampusCraving" className="w-full h-48 object-cover rounded-xl mb-4" /> 
      <h3 className="text-xl font-semibold mb-2">Campus Cravings </h3> 
      <p className="text-gray-700 mb-3"> 
      A full-stack food ordering platform built to streamline campus food delivery. Students can browse menus, place orders, and track deliveries in real time. </p> 
@@ -188,14 +188,14 @@ export default function Portfolio() {
      <div className="flex gap-4"> <a href="https://github.com/ayushi-Sadani" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">GitHub</a> </div> </div> 
      {/* Project 2 */} 
      <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition"> 
-        <img src="/hacker.webp" alt="Campus Cravings" className="w-full h-48 object-cover rounded-xl mb-4" /> 
+        <img src={`${process.env.PUBLIC_URL}/hacker.webp`} alt="Hacker" className="w-full h-48 object-cover rounded-xl mb-4" /> 
         <h3 className="text-xl font-semibold">Keylogger</h3> 
         <p className="text-gray-700 mb-3"> A cybersecurity tool designed to detect and neutralize malicious keyloggers. Built as a research-driven project to raise awareness on Windows security vulnerabilities. </p> 
         <p className="text-sm text-gray-600 mb-2"><b>Tech Stack:</b> Python, Tkinter, Windows API</p> 
         <p className="text-sm text-gray-600 mb-4"> <b>Impact:</b> Identified and removed multiple stealth keyloggers in test environments, helping improve endpoint protection. </p> 
         <div className="flex gap-4"> <a href="https://github.com/ayushi-Sadani" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">GitHub</a> </div> </div> 
         {/* Project 3 */} <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition"> 
-            <img src="/Safety.jpg" alt="Campus Cravings" className="w-full h-48 object-cover rounded-xl mb-4" /> 
+            <img src={`${process.env.PUBLIC_URL}/Safety.jpg`} alt="Safety" className="w-full h-48 object-cover rounded-xl mb-4" /> 
             <h3 className="text-xl font-semibold mb-2">Women’s Safety App </h3> 
             <p className="text-gray-700 mb-3"> A women’s safety mobile application with an emergency alert button that instantly notifies pre-saved contacts, provides a cyber-safety guide, and integrates live location tracking via map services. </p> 
             <p className="text-sm text-gray-600 mb-2"><b>Tech Stack:</b> Android SDK & Java, MongoDB, Figma</p> 
